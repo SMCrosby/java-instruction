@@ -1,0 +1,18 @@
+import java.text.NumberFormat;
+
+public class NumberFormatApp {
+
+	public static void main(String[] args) {
+		// pg 105
+		double astonMartinPrice = 245789.23;
+		double interestPct = .035;
+		
+		NumberFormat currency = NumberFormat.getCurrencyInstance(); 
+		
+		System.out.println("Car finance info: ");
+		System.out.println("Price:\t\t"+currency.format(astonMartinPrice));
+		System.out.println("Interest:\t"+interestPct);
+
+	}
+
+}

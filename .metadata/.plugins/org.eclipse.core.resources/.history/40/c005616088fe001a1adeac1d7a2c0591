@@ -1,0 +1,14 @@
+
+public class ScanMeApp {
+
+	public static void main(String[] args) {
+		// Prompt use from 3 numbers on one line then get them
+		//pg. 63
+		System.out.print("Enter 3 ints seperated by a space: ");
+	
+		
+		
+
+	}
+
+}

@@ -1,0 +1,17 @@
+
+public class MathClassApp {
+
+	public static void main(String[] args) {
+		// pg 103 in the book
+		long result1 = Math.round(1.667);
+		System.out.println(result1);   			// result = 2
+		
+		int result2= Math.round(1.49F);
+		System.out.println(result2);   			// result = 1
+		
+		int result3 = (int)Math.round(1.667);
+		System.out.println(result3); 			// result = 2
+
+	}
+
+}

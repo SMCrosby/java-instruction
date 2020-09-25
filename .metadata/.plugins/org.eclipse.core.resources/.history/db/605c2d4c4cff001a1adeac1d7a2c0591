@@ -1,0 +1,17 @@
+import java.math.BigDecimal;
+
+public class BigDecimalApp {
+
+	public static void main(String[] args) {
+		// pg. 111
+		
+		double pct = .0356789;
+		System.out.println(pct);
+		
+		// Create big decimal with scale of 4 and half up rounding
+		BigDecimal pctBD = new BigDecimal(pct);
+		System.out.println(pctBD);
+		
+	}
+
+}

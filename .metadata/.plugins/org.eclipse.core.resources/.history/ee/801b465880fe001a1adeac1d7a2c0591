@@ -1,0 +1,23 @@
+
+public class Strings {
+
+	public static void main(String[] args) {
+			String firstName = "Bob";
+			String lastName ="Marley";
+			int age = 36;
+			String message = "";
+			
+			message = firstName;
+			message = message + "";
+			message += lastName;
+			message += "was "+age+"years old when he passed.";
+					System.out.println(message);
+					
+					
+					
+
+					
+
+	}
+
+}
