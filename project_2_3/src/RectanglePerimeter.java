@@ -16,17 +16,17 @@ public class RectanglePerimeter {
 		
 		String choice = "y";
 		while (choice.equalsIgnoreCase("y")) {
-			System.out.print("\nEnter length: ");
+			System.out.print("\nEnter length: \t");
 			double length = sc.nextDouble();
 			
-			System.out.print("Enter width: ");
+			System.out.print("Enter width: \t");
 			double width = sc.nextDouble();
 			
 			area = (length * width);
-			System.out.println("Area: " +area);
+			System.out.println("Area: \t\t" +area);
 			
 			perimeter = ((length * 2) + (width * 2));
-			System.out.println("Perimeter: " +perimeter);
+			System.out.println("Perimeter: \t" +perimeter);
 			
 			System.out.println(" ");
 			
@@ -38,7 +38,7 @@ public class RectanglePerimeter {
 		
 		System.out.println("Bye Bye");
 		sc.close();
-		
+		 
 	}
 
 }
