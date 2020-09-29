@@ -5,16 +5,7 @@ public class BmbdProjectCh4 {
 	public static void main(String[] args) {
 		System.out.println("Welcome to the Bootcamp Movie Database");
 		Scanner sc = new Scanner(System.in);
-		String firstName = "";
-		String lastName = "";
-		String gender = "M";
-		String birthDate = "";
-		String genderL = "Male";
-		
-		String title = "";
-		int year = 0;
-		String rating = "";
-		String genre = "";
+		String genderL = " ";
 		
 		String command = " ";
 		while (!command.equalsIgnoreCase("3")) {
@@ -32,13 +23,14 @@ public class BmbdProjectCh4 {
 				System.out.println("\nAdd an Actor:  ");
 				System.out.print("-------------");
 				System.out.print("\nEnter First Name: \t\t");
-				firstName = sc.next();
+				String firstName = sc.next();
 				System.out.print("Enter Last Name: \t\t");
-				lastName = sc.next();
+				String lastName = sc.next();
 				System.out.print("Enter Gender (M/F): \t\t");
-				gender = sc.next();
+				String gender = sc.next();
 				System.out.print("Enter Birthdate (YYYY-MM-DD): \t");
-				birthDate = sc.next();
+				String birthDate = sc.next();
+				
 				
 				if (gender.equalsIgnoreCase("M")) {
 					genderL = "Male"; 
@@ -58,14 +50,14 @@ public class BmbdProjectCh4 {
 				System.out.println("-------------");
 				System.out.print("Name of Title: \t");
 				sc.nextLine();
-				title = sc.nextLine();
+				String title = sc.nextLine();
 				System.out.print("Year Released: \t");
-				year = sc.nextInt();
+				int year = sc.nextInt();
 				System.out.print("Movie Rating: \t");
-				rating = sc.next();
+				String rating = sc.next();
 				System.out.print("Movie Genre(s): ");
 				sc.nextLine();
-				genre = sc.nextLine();
+				String genre = sc.nextLine();
 				
 				System.out.println("\nMovie Summary:");
 				System.out.println("--------------");
