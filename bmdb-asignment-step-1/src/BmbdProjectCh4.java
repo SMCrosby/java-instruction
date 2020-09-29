@@ -45,7 +45,8 @@ public class BmbdProjectCh4 {
 				}
 				else if (gender.equalsIgnoreCase("F")) {
 					genderL = "Female";
-					 }
+				}
+				else genderL = "Unknown/Non-Binary";
 				
 				System.out.println("Actor Summary:");
 				System.out.println("---------------");
@@ -71,7 +72,7 @@ public class BmbdProjectCh4 {
 				System.out.println(title +" ("+ rating+") was released \nin "+year+".  Genre(s): "+genre);
 				
 				break; 
-			case "3" :        	//Exit
+			case "3" :			//Exit
 				System.out.println("\n--Goodbye--");
 				break;
 			default:			//Invalid entry
