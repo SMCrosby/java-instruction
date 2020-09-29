@@ -12,13 +12,13 @@ public class CommonDivisorCalculatorApp {
 		
 		while (choice.equalsIgnoreCase("y")) {
 		
-			System.out.print("Enter first number:\t");
+			System.out.print("\nEnter first number:\t\t");
 			int x = sc.nextInt();
-			System.out.print("Enter second number\t");
+			System.out.print("Enter second number\t\t");
 			int y = sc.nextInt();
 			
 			while (x>0) {
-				while (y>x) {
+				while (y >= x) {
 					y -= x;
 				}
 				//swap x and y
@@ -31,8 +31,7 @@ public class CommonDivisorCalculatorApp {
 			
 			System.out.println("Greatest common divisor:\t"+y);
 			
-			
-			System.out.println("Continue? (y/n)");
+			System.out.print("\nContinue? (y/n)\t");
 			sc.next();
 			
 		}
@@ -43,15 +42,3 @@ public class CommonDivisorCalculatorApp {
 
 	
 }
-
-//Specifications
-// The formula for finding the greatest common divisor of two positive integers x and y
-//follows the Euclidean algorithm as follows:
-//1. Subtract x from y repeatedly until y < x.
-//2. Swap the values of x and y.
-//3. Repeat steps 1 and 2 until x = 0.
-//4. y is the greatest common divisor of the two numbers.
-//You can use one loop for step 1 of the algorithm nested within a second loop for step
-//3.
-// Assume that the user will enter valid integers for both numbers.
-// The application should continue only if the user enters “y” or “Y” to continue.

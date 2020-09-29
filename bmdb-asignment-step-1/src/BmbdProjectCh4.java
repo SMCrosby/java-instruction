@@ -5,7 +5,6 @@ public class BmbdProjectCh4 {
 	public static void main(String[] args) {
 		System.out.println("Welcome to the Bootcamp Movie Database");
 		Scanner sc = new Scanner(System.in);
-		String genderL = " ";
 		
 		String command = " ";
 		while (!command.equalsIgnoreCase("3")) {
@@ -31,6 +30,8 @@ public class BmbdProjectCh4 {
 				System.out.print("Enter Birthdate (YYYY-MM-DD): \t");
 				String birthDate = sc.next();
 				
+				
+				String genderL = " ";
 				
 				if (gender.equalsIgnoreCase("M")) {
 					genderL = "Male"; 
