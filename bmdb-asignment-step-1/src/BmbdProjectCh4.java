@@ -12,7 +12,7 @@ public class BmbdProjectCh4 {
 		String genderL = "Male";
 		
 		String title = "";
-		String year = "";
+		int year = 0;
 		String rating = "";
 		String genre = "";
 		
@@ -24,7 +24,7 @@ public class BmbdProjectCh4 {
 			System.out.println("2 - Add Movie");
 			System.out.println("3 - Exit");
 			
-			System.out.print("Enter Command:   ");
+			System.out.print("\nEnter Command:   ");
 			command = sc.next();
 			
 			switch (command) {
@@ -56,99 +56,37 @@ public class BmbdProjectCh4 {
 				System.out.println("\nAdd a Movie: ");
 				System.out.println("-------------");
 				System.out.print("Name of Title: \t");
-				title = sc.next();
+				sc.nextLine();
+				title = sc.nextLine();
 				System.out.print("Year Released: \t");
-				year = sc.next();
+				year = sc.nextInt();
 				System.out.print("Movie Rating: \t");
 				rating = sc.next();
-				System.out.print("Movie Genre: ");
-				genre = sc.next();
+				System.out.print("Movie Genre(s): ");
+				sc.nextLine();
+				genre = sc.nextLine();
 				
 				System.out.println("\nMovie Summary:");
 				System.out.println("--------------");
-				System.out.println(title +" ("+ rating+") was released \n in "+year+".  Genre(s): "+genre);
-				
-				
-				//Add a Movie:
-				//Title?  Jumanji: Welcome to the Jungle
-				//Year?  2017
-				//Rating?  PG-13
-				//Genre?  Action, Adventure, Comedy
-				//
-				//Movie Summary:
-				//Jumanji: Welcome to the Jungle (PG-13) was released
-				//In 2017.  Genre(s): Action, Adventure, Comedy
-				
-				
+				System.out.println(title +" ("+ rating+") was released \nin "+year+".  Genre(s): "+genre);
 				
 				break; 
 			case "3" :        	//Exit
+				System.out.println("\n--Goodbye--");
 				break;
 			default:			//Invalid entry
 				System.out.println("Invalid Entry");
 				break;
 			
 			
-			
-			
 			}
-			
-			
 			
 			
 		}
 		
-	
-
+		sc.close();
+		
 	}
 
 }
-
-
-//Welcome to the Bootcamp Movie DB!
-//
-//Menu
-//1 - Add Actor
-//2 - Add Movie
-//3 - Exit
-//
-//Command:  1
-//
-//Add an Actor:
-//First Name?  Dwayne
-//Last Name?  Johnson
-//Gender (M/F)?  M
-//BirthDate (YYYY/MM/DD)?  1972-05-02
-//
-//Actor Summary:
-//Dwayne Johnson, Male, born 1972-05-02
-//
-//Menu
-//1 - Add Actor
-//2 - Add Movie
-//3 - Exit
-//
-//Command:  2
-//
-//Add a Movie:
-//Title?  Jumanji: Welcome to the Jungle
-//Year?  2017
-//Rating?  PG-13
-//Genre?  Action, Adventure, Comedy
-//
-//Movie Summary:
-//Jumanji: Welcome to the Jungle (PG-13) was released
-//In 2017.  Genre(s): Action, Adventure, Comedy
-//
-//Menu
-//1 - Add Actor
-//2 - Add Movie
-//3 - Exit
-//
-//Command:  3
-//
-//Bye!
-
-
-
 
