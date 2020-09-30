@@ -4516,3 +4516,434 @@ java.lang.InterruptedException
 	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:132)
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+!SESSION 2020-09-30 08:59:53.605 -----------------------------------------------
+eclipse.buildId=4.5.1.202001211336-RELEASE
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.core.resources 2 10035 2020-09-30 09:00:38.616
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2020-09-30 09:01:22.500
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-09-30 09:01:22.500
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6d842877,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@614cbec4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:09.711
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:09.727
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@ce5a2ea[org.springframework.tooling.boot.ls:1.15.0.202001210741(id=631)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:09.789
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:10.357
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:15.692
+!MESSAGE Boot LS startup time from start to initialized: 5786ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:16.085
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.XYjVClfsisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:17.792
+!MESSAGE subscribing to classpath changes: sts4.classpath.XYjVClfs isBatched = true
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-09-30 09:02:17.808
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Sarah'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:17.824
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:17.839
+!MESSAGE subsribers = {sts4.classpath.XYjVClfs=Send Classpath Notifications(54)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:17.855
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:17.886
+!MESSAGE project project5-3-guessing-game ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:17.902
+!MESSAGE project bmdb-asignment-step-1 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:17.964
+!MESSAGE Preparing classpath changed notification project5-3-guessing-game
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:17.991
+!MESSAGE project ch05-demo1-methods ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.006
+!MESSAGE project MathClassApp ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.006
+!MESSAGE project MathClassApp SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.022
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.038
+!MESSAGE project Project3-1-temperature-converter ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.038
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.053
+!MESSAGE project Project3-1-temperature-converter SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.053
+!MESSAGE buffering callback sts4.classpath.XYjVClfs project5-3-guessing-game false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.100
+!MESSAGE project UnaryOperatorApp ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.131
+!MESSAGE Preparing classpath changed notification bmdb-asignment-step-1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.147
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.178
+!MESSAGE project UnaryOperatorApp SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.209
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.225
+!MESSAGE buffering callback sts4.classpath.XYjVClfs bmdb-asignment-step-1 false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.241
+!MESSAGE Preparing classpath changed notification ch05-demo1-methods
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.256
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.303
+!MESSAGE project ch02_ControlStatements ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.303
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.319
+!MESSAGE project ch02_ScanMe ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.334
+!MESSAGE project ch02_ScanMe SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.334
+!MESSAGE project ch02_calculator ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.350
+!MESSAGE buffering callback sts4.classpath.XYjVClfs ch05-demo1-methods false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.350
+!MESSAGE Preparing classpath changed notification ch02_ControlStatements
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.366
+!MESSAGE project ch02_calculator SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.381
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.381
+!MESSAGE project ch02_ex1_Invoice ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.397
+!MESSAGE project ch02_ex1_Invoice SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.412
+!MESSAGE project ch02_ex2_TestScore ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.428
+!MESSAGE project ch02_ex2_TestScore SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.444
+!MESSAGE project ch02_ex3_Invoice ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.459
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.459
+!MESSAGE project ch02_ex3_Invoice SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.475
+!MESSAGE project ch02_strings ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.475
+!MESSAGE project ch02_strings SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.491
+!MESSAGE project ch03-big-decimal ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.491
+!MESSAGE project ch03-big-decimal SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.506
+!MESSAGE project ch03_ex1_MPG ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.506
+!MESSAGE project ch03_ex1_MPG SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.522
+!MESSAGE project ch03_ex2_TestScore ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.537
+!MESSAGE project ch03_ex2_TestScore SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.537
+!MESSAGE project ch03_numberformat ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.553
+!MESSAGE project ch03_numberformat SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.553
+!MESSAGE project ch04-demo1-if-statements ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.569
+!MESSAGE project ch04-demo2-switch-statements ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.584
+!MESSAGE project ch04-demo3-for-loops ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.584
+!MESSAGE project ch04_ex1_FutureValue ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.647
+!MESSAGE buffering callback sts4.classpath.XYjVClfs ch02_ControlStatements false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.647
+!MESSAGE Preparing classpath changed notification ch04-demo1-if-statements
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.662
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.678
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.694
+!MESSAGE buffering callback sts4.classpath.XYjVClfs ch04-demo1-if-statements false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.709
+!MESSAGE project ch04_ex2_Invoice ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.725
+!MESSAGE Preparing classpath changed notification ch04-demo2-switch-statements
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.866
+!MESSAGE project ch04_ex3_GuessNumber ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.897
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.912
+!MESSAGE project ch3_primitives ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.928
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.944
+!MESSAGE project ch3_primitives SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.959
+!MESSAGE buffering callback sts4.classpath.XYjVClfs ch04-demo2-switch-statements false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.959
+!MESSAGE project project3-2_travel-time-calculator ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.975
+!MESSAGE Preparing classpath changed notification ch04-demo3-for-loops
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:18.997
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:19.006
+!MESSAGE project project3-2_travel-time-calculator SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:19.007
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:19.007
+!MESSAGE project project3-3-interest-calculator ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:19.023
+!MESSAGE project project3-3-interest-calculator SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:19.023
+!MESSAGE project project3-4-change-calculator ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:19.038
+!MESSAGE project project3-4-change-calculator SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:19.038
+!MESSAGE buffering callback sts4.classpath.XYjVClfs ch04-demo3-for-loops false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:19.054
+!MESSAGE project project4-2-factorial-calculator ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:19.054
+!MESSAGE Preparing classpath changed notification ch04_ex1_FutureValue
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:19.054
+!MESSAGE project project4-2-table-of-powers ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:19.070
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:19.070
+!MESSAGE project project4-4-common-divisor-calculator ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:19.070
+!MESSAGE project project5-1-dice-roller ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:19.085
+!MESSAGE project project_2-1 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:19.085
+!MESSAGE project project_2-1 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:19.085
+!MESSAGE project project_2-2 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:19.101
+!MESSAGE project project_2-2 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:19.101
+!MESSAGE project project_2_3 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:19.116
+!MESSAGE project project_2_3 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:19.116
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:19.116
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.XYjVClfs => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:19.179
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:19.241
+!MESSAGE buffering callback sts4.classpath.XYjVClfs ch04_ex1_FutureValue false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:19.273
+!MESSAGE Preparing classpath changed notification ch04_ex2_Invoice
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:19.288
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:19.304
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:19.335
+!MESSAGE buffering callback sts4.classpath.XYjVClfs ch04_ex2_Invoice false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:19.351
+!MESSAGE Preparing classpath changed notification ch04_ex3_GuessNumber
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:19.366
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:19.398
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:19.398
+!MESSAGE buffering callback sts4.classpath.XYjVClfs ch04_ex3_GuessNumber false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:19.413
+!MESSAGE Preparing classpath changed notification project4-2-factorial-calculator
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:19.429
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:19.429
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:19.444
+!MESSAGE buffering callback sts4.classpath.XYjVClfs project4-2-factorial-calculator false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:19.460
+!MESSAGE Preparing classpath changed notification project4-2-table-of-powers
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:19.460
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:19.476
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:19.476
+!MESSAGE buffering callback sts4.classpath.XYjVClfs project4-2-table-of-powers false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:19.491
+!MESSAGE Preparing classpath changed notification project4-4-common-divisor-calculator
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:19.491
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:19.507
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:19.507
+!MESSAGE buffering callback sts4.classpath.XYjVClfs project4-4-common-divisor-calculator false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:19.507
+!MESSAGE Preparing classpath changed notification project5-1-dice-roller
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:19.523
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:19.523
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:19.538
+!MESSAGE buffering callback sts4.classpath.XYjVClfs project5-1-dice-roller false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:19.538
+!MESSAGE executing callback sts4.classpath.XYjVClfs 14 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 09:02:20.149
+!MESSAGE executing callback sts4.classpath.XYjVClfs SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 10:29:43.997
+!MESSAGE Preparing classpath changed notification project4-3-tip-calculator
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 10:29:44.013
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 10:29:44.026
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 10:29:44.035
+!MESSAGE buffering callback sts4.classpath.XYjVClfs project4-3-tip-calculator false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 10:29:44.041
+!MESSAGE executing callback sts4.classpath.XYjVClfs 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-30 10:29:44.054
+!MESSAGE executing callback sts4.classpath.XYjVClfs SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2020-09-30 10:29:47.334
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)

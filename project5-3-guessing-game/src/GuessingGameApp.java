@@ -8,15 +8,16 @@ public class GuessingGameApp {
 		System.out.println("++++++++++++++++++++++++++++++++++++");
 
 		System.out.println("\nI'm thinking of a number from 1 to 100.\nTry to guess it.");
+		
 		String choice = "y";
 		Scanner sc = new Scanner(System.in);
 		int i = 0;
 		int guess = 0;
-		String comment = "Great work you are a mathmatical wizard!";
-		int random = (int)(Math.random() * 100);
-			random++;
+		String comment = "";
+		int random = (int)(Math.random() * 100)+1;		//random = the number we're trying to guess
 			
-		while (choice.equalsIgnoreCase("y")) {
+			
+	while (choice.equalsIgnoreCase("y")) {
 		System.out.println(random);
 		
 		while (guess != random) {
@@ -29,8 +30,7 @@ public class GuessingGameApp {
 				else if (i > 7) { comment = "What took you so long? \nMaybe you should take some lessons..."; } 
 				
 				System.out.println("You guessed it in "+i+" tries!\n"+comment);
-			
-		}
+				}
 		
 		else if (guess <= (random-10)) {
 			System.out.println("Way too low. Guess again");
@@ -45,10 +45,9 @@ public class GuessingGameApp {
 			System.out.println("too high. Guess again");
 		}
 	}
-			
-			
-			System.out.println("\nContinue? (y/n) ");
-			choice = sc.next();
+
+			choice = getChoiceString("\nContinue (y/n):  ", sc);
+
 			random = (int)(Math.random() * 100);
 			random++;
 		}
@@ -92,28 +91,52 @@ public class GuessingGameApp {
 		
 		return nbr;
 	}
-			//Work in progress for (y/n) sorting
-//	private static void getChoice(String prompt, Scanner sc) {
-//		String c = sc.next();
-//		if (c.equalsIgnoreCase("y") || c.equalsIgnoreCase("n")) {
-//			
-//		}
-		
+			//(y/n) input check
+	private static String getChoiceString(String prompt, Scanner sc) {
+		System.out.print(prompt);
+		String choice = sc.next(); 
+		while ((choice.equalsIgnoreCase("y") || choice.equalsIgnoreCase("n")) != true) {
+			System.out.println("Error! Entry must be 'y' or 'n'. Try again.");
+			System.out.print(prompt);
+			choice = sc.next(); 	
+		}
+		return choice;
+
 	}
-	
 
 }
 
 
 
+//Method to make sure entry isn't blank
 
-//Try again? (y/n):
-//Error! This entry is required. Try again.
-//Try again? (y/n): x
-//Error! Entry must be 'y' or 'n'. Try again.
-//Try again? (y/n): n
+//private static String getRequiredString(String prompt, Scanner sc) {
+//	String str = " ";
+//	boolean isValid = false;
+//	while (!isValid) {
+//		System.out.println(prompt);
+//		str = sc.nextLine();
+//		if (str.equals(" ")) {
+//			System.out.println("Invalid Entry.. this feild is required");	
+//		}
+//		else {
+//			isValid = true;
+//		}
+//	}
+//}
+//
+////Method to get required string which only has 2 valid choices (s1, s2)
+//
+//private static String getChoiceString(String prompt, Scanner sc, String s1, String s2) {
+//	String str = "";
+//	boolean isValid = false;
+//	while (!isValid) {
+//		str = getRequiredString(prompt, sc);
+//		if (!str.equalsIgnoreCase(s1) && !str.equalsIgnoreCase(s2)) {
+//			// Entry is invalid
+//			System.out.println("Invalid Entry: Expected values are '"+s1+"' or '"+s2+"'.");
+//		}
+//	}
+//	return str;
+//}
 
-// When the user responds to the “Try Again?” prompt, the application should only
-//accept a value of “y” or “n”.
-// If the user enters invalid data, the application should display an appropriate error
-//message and prompt the user again until the user enters valid data.

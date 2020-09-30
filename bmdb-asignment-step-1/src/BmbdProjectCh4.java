@@ -31,19 +31,19 @@ public class BmbdProjectCh4 {
 				String birthDate = sc.next();
 				
 				
-				String genderL = " ";
+				String genderName = " ";
 				
 				if (gender.equalsIgnoreCase("M")) {
-					genderL = "Male"; 
+					genderName = "Male"; 
 				}
 				else if (gender.equalsIgnoreCase("F")) {
-					genderL = "Female";
+					genderName = "Female";
 				}
-				else genderL = "Unknown/Non-Binary";
+				else genderName = "Unknown/Non-Binary";
 				
 				System.out.println("Actor Summary:");
 				System.out.println("---------------");
-				System.out.println(firstName + " " + lastName+", " + genderL +", Born " + birthDate);
+				System.out.println(firstName + " " + lastName+", " + genderName +", Born " + birthDate);
 				break;
 				
 			case "2": 			//Add Movie
