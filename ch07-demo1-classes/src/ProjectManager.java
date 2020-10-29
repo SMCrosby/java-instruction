@@ -29,7 +29,7 @@ public class ProjectManager {
 		changePrice(p2,50);
 		System.out.println(p2);
 		
-		//pg 243
+		//pg 243  
 		System.out.println("Pass primitive type to a method...");
 		double price = 700;
 		price = changePrice(price, 650);

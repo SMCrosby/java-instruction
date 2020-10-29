@@ -9,7 +9,7 @@ public class BmbdProjectCh4 {
 		String command = " ";
 		while (!command.equalsIgnoreCase("3")) {
 			System.out.println("\nMENU");
-			System.out.println("=====");
+			System.out.println("====="); 
 			System.out.println("1 - Add Actor");
 			System.out.println("2 - Add Movie");
 			System.out.println("3 - Exit");

@@ -2,11 +2,11 @@ import java.util.Scanner;
 
 public class ContactListApp {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 		//Use a class to store and display contact information
 		System.out.println("Welcome to the Contact List App");
 		String choice = "y";
-		Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in); 
 		
 		while (choice.equalsIgnoreCase("y")) {
 			

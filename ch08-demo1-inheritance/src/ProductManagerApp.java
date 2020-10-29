@@ -16,7 +16,7 @@ public class ProductManagerApp {
 		//pg 269
 		Software s1 = new Software("eclipse", "STS Eclipse", 0.0, "4.6.1.RELEASE");
 		System.out.println(s1);
-
+ 
 		
 		System.out.println("Goodbye");
 	}

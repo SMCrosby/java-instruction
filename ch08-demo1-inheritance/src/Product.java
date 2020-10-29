@@ -7,9 +7,9 @@ public class Product {
 //				-includes a constructor that requires no argument
 //				-all instance variables are private
 //				-includes get and set methods for all instance variable you want to be able to access 
-		private String code;
+		private String code; 
 		private String description;
-		private double price;
+		private double price; 
 		
 		// Constructor - empty/default constructor (does not accept any parameters)
 		public Product() {

@@ -25,7 +25,7 @@ public class Software extends Product {
 	}
 
 	
-	@Override
+	@Override 
 	public String toString() {
 		return "Software [version=" + version + ", toString()=" + super.toString() + "]";
 	}

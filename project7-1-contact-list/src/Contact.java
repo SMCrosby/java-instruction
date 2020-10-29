@@ -7,7 +7,7 @@ public class Contact {
 	private String lastName;
 	private String email;
 	private String phone;
-	
+	  
 	// define constructors
 	public Contact() {
 		super();
